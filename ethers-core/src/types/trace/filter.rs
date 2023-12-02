@@ -211,6 +211,9 @@ pub enum CallType {
     /// Static call
     #[serde(rename = "staticcall")]
     StaticCall,
+    /// Auth call
+    #[serde(rename = "authcall")]
+    AuthCall,
 }
 
 /// Create response
